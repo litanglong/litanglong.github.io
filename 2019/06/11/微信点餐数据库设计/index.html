@@ -96,16 +96,17 @@
 
 
 
-  <meta name="description" content="少壮不努力，长大搞IT。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="LTL&#39;s Bolg">
-<meta property="og:url" content="http://yoursite.com/categories/MarkDown/index.html">
+  <meta name="description" content="商品表CREATE TABLE product_info (     product_id VARCHAR(32) NOT NULL,     product_name VARCHAR(64) NOT NULL COMMENT &amp;apos;名称&amp;apos;,     product_price DECIMAL(8,2) NOT NULL COMMENT &amp;apos;价格&amp;apos;,     pr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微信点餐数据库设计">
+<meta property="og:url" content="http://yoursite.com/2019/06/11/微信点餐数据库设计/index.html">
 <meta property="og:site_name" content="LTL&#39;s Bolg">
-<meta property="og:description" content="少壮不努力，长大搞IT。">
+<meta property="og:description" content="商品表CREATE TABLE product_info (     product_id VARCHAR(32) NOT NULL,     product_name VARCHAR(64) NOT NULL COMMENT &amp;apos;名称&amp;apos;,     product_price DECIMAL(8,2) NOT NULL COMMENT &amp;apos;价格&amp;apos;,     pr">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-06-11T15:22:57.763Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LTL&#39;s Bolg">
-<meta name="twitter:description" content="少壮不努力，长大搞IT。">
+<meta name="twitter:title" content="微信点餐数据库设计">
+<meta name="twitter:description" content="商品表CREATE TABLE product_info (     product_id VARCHAR(32) NOT NULL,     product_name VARCHAR(64) NOT NULL COMMENT &amp;apos;名称&amp;apos;,     product_price DECIMAL(8,2) NOT NULL COMMENT &amp;apos;价格&amp;apos;,     pr">
 
 
 
@@ -113,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/categories/MarkDown/">
+  <link rel="canonical" href="http://yoursite.com/2019/06/11/微信点餐数据库设计/">
 
 
 
@@ -123,7 +124,7 @@
   };
 </script>
 
-  <title>分类: MarkDown | LTL's Bolg</title>
+  <title>微信点餐数据库设计 | LTL's Bolg</title>
   
 
 
@@ -171,7 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -243,7 +244,7 @@
         
         
           
-          <li class="menu-item menu-item-categories menu-item-active">
+          <li class="menu-item menu-item-categories">
 
     
     
@@ -331,80 +332,215 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>MarkDown<small>分类</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/11/微信点餐数据库设计/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Tanglong Li">
+      <meta itemprop="description" content="少壮不努力，长大搞IT。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="LTL's Bolg">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/2019/06/01/MarkDown的常见用法/" itemprop="url">
-            
-              <span itemprop="name">MarkDown的常见用法</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">微信点餐数据库设计
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-06-01T23:14:00+08:00" content="2019-06-01">
-          06-01
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
 
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-11 22:48:36 / 修改时间：23:22:57" itemprop="dateCreated datePublished" datetime="2019-06-11T22:48:36+08:00">2019-06-11</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h4 id="商品表"><a href="#商品表" class="headerlink" title="商品表"></a>商品表</h4><pre><code>CREATE TABLE product_info (
+    product_id VARCHAR(32) NOT NULL,
+    product_name VARCHAR(64) NOT NULL COMMENT &apos;名称&apos;,
+    product_price DECIMAL(8,2) NOT NULL COMMENT &apos;价格&apos;,
+    product_stock INT NOT NULL COMMENT &apos;库存&apos;,
+    product_discription VARCHAR(512) COMMENT &apos;描述&apos;,
+    product_icon VARCHAR(512) COMMENT &apos;图片&apos;,
+    category_type INT NOT NULL COMMENT &apos;编号&apos;,
+    create_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    update_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (product_id)
+)</code></pre><h4 id="类目表"><a href="#类目表" class="headerlink" title="类目表"></a>类目表</h4><pre><code>CREATE TABLE product_category (
+    category_id INT NOT NULL auto_increment,
+    category_name VARCHAR(64) NOT NULL COMMENT &apos;名称&apos;,
+    category_type INT NOT NULL COMMENT &apos;编号&apos;,
+    create_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    update_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (category_id),
+    UNIQUE KEY uqe_category_type (category_type)
+)</code></pre><h4 id="订单主表"><a href="#订单主表" class="headerlink" title="订单主表"></a>订单主表</h4><pre><code>CREATE TABLE order_master (
+    order_id VARCHAR(32) NOT NULL,
+    buyer_name VARCHAR(32) NOT NULL COMMENT &apos;买家名字&apos;,
+    buyer_phone VARCHAR(32) NOT NULL COMMENT &apos;买家电话&apos;,
+    buyer_address VARCHAR(128) NOT NULL COMMENT &apos;买家地址&apos;,
+    buyer_openid VARCHAR(64) NOT NULL COMMENT &apos;买家openid&apos;,
+    order_amount DECIMAL NOT NULL COMMENT &apos;订单总金额&apos;,
+    order_status TINYINT(3) NOT NULL COMMENT &apos;订单状态&apos;,
+    pay_status TINYINT(3) NOT NULL COMMENT &apos;支付状态&apos;,
+    create_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    update_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (order_id),
+    KEY idx_buyer_openid (buyer_openid)
+)</code></pre><h3 id="订单明细表"><a href="#订单明细表" class="headerlink" title="订单明细表"></a>订单明细表</h3><pre><code>CREATE TABLE order_detail (
+    detail_id VARCHAR(32) NOT NULL,
+    order_id VARCHAR(32) NOT NULL COMMENT &apos;买家名字&apos;,
+    product_id VARCHAR(32) NOT NULL COMMENT &apos;商品id&apos;,
+    product_name VARCHAR(64) NOT NULL COMMENT &apos;商品名称&apos;,
+    product_price DECIMAL(8,2) NOT NULL COMMENT &apos;商品价格&apos;,
+    product_quantity INT NOT NULL COMMENT &apos;商品数量&apos;,
+    product_icon VARCHAR(512) COMMENT &apos;商品图片&apos;,
+    create_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    update_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (detail_id),
+    KEY idx_product_id (product_id)
+)</code></pre>
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/10/Mysql-8-0-的安装/" rel="next" title="Mysql 8.0 的安装">
+                <i class="fa fa-chevron-left"></i> Mysql 8.0 的安装
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -424,8 +560,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -488,6 +633,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#商品表"><span class="nav-number">1.</span> <span class="nav-text">商品表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#类目表"><span class="nav-number">2.</span> <span class="nav-text">类目表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#订单主表"><span class="nav-number">3.</span> <span class="nav-text">订单主表</span></a></li></ol><li class="nav-item nav-level-3"><a class="nav-link" href="#订单明细表"><span class="nav-number"></span> <span class="nav-text">订单明细表</span></a></li></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -619,6 +781,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.2"></script>
+<script src="/js/post-details.js?v=7.1.2"></script>
+
+
 
   
 
@@ -634,6 +800,8 @@
 
   
 
+
+  
 
 
   
