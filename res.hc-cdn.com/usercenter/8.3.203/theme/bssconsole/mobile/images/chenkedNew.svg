@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>基础组件/选项/复选框/默认</title>
+    <desc>Created with Sketch.</desc>
+    <g id="终稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="已输入-身份证信息输入备份" transform="translate(-15.000000, -390.000000)">
+            <g id="编组-2" transform="translate(15.000000, 136.000000)">
+                <g id="忘记密码/其他登录" transform="translate(0.000000, 254.000000)">
+                    <g id="记住登录名">
+                        <g id="sliceGroup">
+                            <g id="基础组件/选项/复选框/选中">
+                                <g id="checkbox/复选框/选中">
+                                    <g id="分组-5">
+                                        <g id="分组-3">
+                                            <rect id="矩形-copy" fill="#C7000B" x="0" y="0" width="16" height="16" rx="2"></rect>
+                                            <polygon id="Shape" fill="#FFFFFF" points="13.2722699 5.78628571 12.0376296 4.57142857 7.51771429 9.01702082 4.23231527 5.78730654 3 6.99759225 7.52003941 11.4433065 8.75119212 10.2330208"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
