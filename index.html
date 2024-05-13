@@ -1,23 +1,29 @@
-<!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type", content="text/html; charset=utf-8">
-    <meta http-equiv="pragma" content="no-cache">
-	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
-    <title></title>
-    <style>
-		div {
-			margin: 0 auto;
-			width: 200px;
-		}
-	</style>
-</head>
-<body>
-<div>
-	<marquee behavior="behavior">
-		按照国务院《征信业管理条例》有关规定，我公司将对未按时还款的逾期信息报送至中国人民银行金融信用信息基础数据库。如按照国务院《征信业管理条例》有关规定，我公司将对未按时还款的逾期信息报送至中国人民银行金融信用信息基础数据库。如
-	</marquee>
-</div>
-</body>
-</html>
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link href=/css/app.db151438.css rel=preload as=style><link href=/js/app.edda7bd8.js rel=preload as=script><link href=/js/chunk-vendors.3b8f6a62.js rel=preload as=script><link href=/css/app.db151438.css rel=stylesheet></head><body><noscript><strong>We're sorry but picc.eloan.decision.web doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.3b8f6a62.js></script><script src=/js/app.edda7bd8.js></script></body><script>var metaEl = document.createElement('meta');
+    metaEl.setAttribute('name', 'viewport');
+    var ua = window.navigator.userAgent.toLowerCase();
+    if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+      metaEl.setAttribute('content', 'initial-scale=' + 1/devicePixelRatio + ', maximum-scale=' + 1/devicePixelRatio + ', minimum-scale=' + 1/devicePixelRatio + ', user-scalable=no, width=device-width, height=device-height');
+      document.head.appendChild(metaEl);
+    } else {
+      metaEl.setAttribute('content', 'user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height');
+      document.head.appendChild(metaEl);
+    }
+    var screenWidth = window.innerWidth;
+    function setFontSize(screen){
+      document.body.style.fontSize=12+'px';
+      document.documentElement.style.fontSize= screen/10+'px';
+    }
+    setFontSize(screenWidth);
+    window.addEventListener("resize", function() {
+      screenWidth = window.innerWidth;
+      setFontSize(screenWidth);
+    }, false);
+    document.body.addEventListener('touchmove', function(e){e.preventDefault()}, false);
+
+    // 加载调试工具
+    ;(function () {
+        const src = '//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js';
+        if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') !== 'true') return;
+        document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+        document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
+    })();</script></html>
